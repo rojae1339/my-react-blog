@@ -7,9 +7,9 @@ function App() {
   return (
     <div>
         <button className={"bg-gray-500"} value={"asd"} >
-            fixfix
+            ang~
         </button>
-        <BrowserRouter basename={"/rojae1339.github.io"}>
+        <BrowserRouter>
             <Routes>
                 <Route path={"/home"} element={<Home/>}/>
             </Routes>
