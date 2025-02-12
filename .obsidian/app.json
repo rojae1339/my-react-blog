@@ -1,0 +1,12 @@
+{
+  "attachmentFolderPath": "src/posts/post_asset",
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true,
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "spellcheck": false,
+  "defaultViewMode": "source",
+  "livePreview": false,
+  "showUnsupportedFiles": false,
+  "alwaysUpdateLinks": true
+}

@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/*h tag style*/
+h1 {
+    @apply text-6xl font-bold text-gray-500 pt-4
+}
+
+h2 {
+    @apply text-5xl font-bold text-gray-500 pt-4
+}
+
+h3 {
+    @apply text-4xl font-bold text-gray-500 pt-4
+}
+
+h4 {
+    @apply text-3xl font-bold text-gray-500 pt-4
+}
+
+h5 {
+    @apply text-2xl font-bold text-gray-500 pt-4
+}
+
+h6 {
+    @apply text-xl font-bold text-gray-500 pt-4
+}
+
+/*p tag style*/
+p {
+    @apply py-2
+}
+
+/*blockquote tag style*/
+blockquote {
+    @apply my-4 h-auto border-l-4 border-gray-400 pl-4 italic ml-10
+}
+
+/*list tag style*/
+ul {
+    @apply px-8 py-2 list-disc
+}
+
+ul ul {
+    @apply list-[circle]
+}
+
+ul ul ul {
+    @apply list-[square]
+}
+
+ol {
+    @apply px-8 py-2 list-decimal
+}
+
+ol li {
+    @apply pt-1
+}
+
+ol ol {
+    @apply list-[upper-roman]
+}
+
+ol ol ol {
+    @apply list-[lower-roman]
+}
+
+/*a tag style*/
+a {
+    @apply text-blue-500 visited:text-purple-600 hover:bg-sky-700
+}
+
+/*img tag style*/
+
+/*hr tag style*/
+hr {
+    @apply mt-4
+}
+
+/*inline code block style*/
+code {
+    @apply overflow-x-auto px-[0.5rem] py-[0.5px] bg-[#181914] text-[#dccf8f] rounded-sm
+}
+
+pre {
+    @apply rounded-xl
+}
+
+pre code {
+    @apply px-0
+}
+
+/*code block style*/
+
+img {
+    @apply rounded-md
+}
