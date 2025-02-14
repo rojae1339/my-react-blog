@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/React + react-markdown + obsidian md & auto front matter.md",
+                "file": "src/posts/테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "React + react-markdown + obsidian md & auto front matter"
+              "title": "테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정"
             }
           },
           {
@@ -198,26 +198,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7dc767ce4edac9bc",
+  "active": "6e5a29254b787f5d",
   "lastOpenFiles": [
-    "src/components/postDetails/PostDetail.jsx",
-    "src/pages/SearchByTagPage.jsx",
-    "src/pages/SearchByQueryPage.jsx",
-    "src/pages/PostDetailPage.jsx",
-    "src/pages/HomePage.jsx",
-    "src/components/postDetails/Post.jsx",
-    "src/App.jsx~",
-    "src/components/profile/Profile.jsx~",
+    "src/posts/post_asset/custom on basic style.png",
+    "src/styles/global.css~",
+    "src/posts/React + react-markdown + obsidian md & auto front matter.md",
+    "src/posts/테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정.md",
+    "src/posts/post_asset/code style.png",
+    "src/components/profile/AboutMe.md",
+    "src/components/profile/Description.jsx~",
+    "node_modules/react-icons/lib/index.d.ts",
+    "node_modules/react-icons/gi/index.d.ts",
+    "node_modules/react-icons/lib/index.mjs",
+    "node_modules/react-icons/hi2/package.json",
+    "node_modules/react-icons/hi2/index.d.ts",
+    "node_modules/react-icons/hi2/index.mjs",
+    "node_modules/react-icons/hi2/index.js",
+    "node_modules/react-icons/hi2",
+    "node_modules/react-icons/README.md",
+    "src/assets/profile-background.jpg",
+    "src/posts/post_asset/5cost.png",
+    "src/posts/post_asset/null.png",
+    "src/posts/post_asset/img.png",
+    "src/posts/post_asset/null.jpg",
     "src/assets/profile.jpg",
     "src/assets/test1.jpg",
-    "src/components/postSimple/PostSimple.jsx~",
-    "src/components/postSimple/PostList.jsx~",
-    "src/util/extractFirstImg.js",
     "src/posts/post_asset/templater auto increment.gif",
     "src/posts/post_templates/meta-template.md",
-    "src/posts/React + react-markdown + obsidian md & auto front matter.md",
     "src/posts/post_asset/templater configuration.png",
-    "src/posts/post_asset/obsidian template.png",
     "src/posts/post.md",
     "src/posts/test6.md",
     "src/posts/test5.md",
@@ -235,7 +243,6 @@
     "src/posts/data/id.json.md",
     "src/posts/test123.md",
     "src/posts/test345.md",
-    "src/posts/json/무제.md",
-    "src/posts/post_asset/null.png"
+    "src/posts/json/무제.md"
   ]
 }

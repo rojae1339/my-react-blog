@@ -1,0 +1,19 @@
+import {IconLink} from "/src/const/profileConsts.js"
+
+const ProfileLink = () => {
+
+
+    return (
+        <div className={"flex flex-row pt-[320px] pr-14 w-full text-xl items-center justify-center gap-5"}>
+            {IconLink.map((item, index) => {
+                return (
+                    <a key={`link_${index}`} href={item.link} target={"_blank"}>
+                        <item.icon />
+                    </a>
+                )
+            })}
+        </div>
+    )
+}
+
+export default ProfileLink

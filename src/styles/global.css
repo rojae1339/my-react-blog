@@ -2,32 +2,31 @@
 
 /*h tag style*/
 h1 {
-    @apply text-6xl font-bold text-gray-500 pt-4
+    @apply text-6xl font-bold text-gray-500
 }
 
 h2 {
-    @apply text-5xl font-bold text-gray-500 pt-4
+    @apply text-5xl font-bold text-gray-500
 }
 
 h3 {
-    @apply text-4xl font-bold text-gray-500 pt-4
+    @apply text-4xl font-bold text-gray-500
 }
 
 h4 {
-    @apply text-3xl font-bold text-gray-500 pt-4
+    @apply text-3xl font-bold text-gray-500
 }
 
 h5 {
-    @apply text-2xl font-bold text-gray-500 pt-4
+    @apply text-2xl font-bold text-gray-500
 }
 
 h6 {
-    @apply text-xl font-bold text-gray-500 pt-4
+    @apply text-xl font-bold text-gray-500
 }
 
 /*p tag style*/
 p {
-    @apply py-2
 }
 
 /*blockquote tag style*/
@@ -37,23 +36,28 @@ blockquote {
 
 /*list tag style*/
 ul {
-    @apply px-8 py-2 list-disc
+    @apply list-disc list-inside
 }
 
+/* global.css */
+ul.profile-nav {
+    list-style: none !important;
+}
+
+
 ul ul {
-    @apply list-[circle]
+    @apply list-[circle] pl-5
 }
 
 ul ul ul {
-    @apply list-[square]
+    @apply list-[square] pl-5
 }
 
 ol {
-    @apply px-8 py-2 list-decimal
+    @apply list-decimal
 }
 
 ol li {
-    @apply pt-1
 }
 
 ol ol {
@@ -66,7 +70,6 @@ ol ol ol {
 
 /*a tag style*/
 a {
-    @apply text-blue-500 visited:text-purple-600 hover:bg-sky-700
 }
 
 /*img tag style*/

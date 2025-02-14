@@ -16,7 +16,7 @@ asdasd
 blank
 
 [Naver link](https://www.naver.com)
-![](src/posts/post_asset/null.png)
+![](src/posts/post_asset/5cost.png)
 
 > blockquote
 

@@ -20,6 +20,8 @@ Templater라는 플러그인으로 js코드를 이용해, 각종 자동화 처�
 
 먼저 필요한건
 
+> test blockquote
+
 - `id.json`파일
 	- 이게 필요한 이유는 딱 한가지다.
 	- 마지막으로 사용된 id를 저장할 파일
@@ -242,3 +244,10 @@ export const frontmatterMapper = (str) => {
 ```
 
 이것도 크게 어려울게 없는 코드이다.
+
+적용을 하게되면
+
+![](src/posts/post_asset/code%20style.png)
+
+
+***참고로 prism스타일이 아닌 hljs스타일은 코드스타일이 적용안되니 참고!@!***
