@@ -2,7 +2,7 @@ import {usePosts} from "../hooks/usePosts.js";
 import ReactMarkdown from "react-markdown";
 import {Link, useLocation, useParams} from "react-router-dom";
 import {PostSimpleUsage} from "../../const/consts.js";
-import {useEffect, useState} from "react";
+import rehypeRaw from "rehype-raw";
 
 const PostSimple = ({picMD, title, subTitle, date, usage}) => {
 
@@ -13,14 +13,15 @@ const PostSimple = ({picMD, title, subTitle, date, usage}) => {
     (
         <Link to={`/${title}`} className={"flex flex-row pt-4 pb-4 border-b-[1px] border-gray-300 w-full"}>
             <ReactMarkdown
+                rehypePlugins={[rehypeRaw]}
                 components={{
                     img: ({ src, alt }) => {
                         console.log(src);
-                        return (<img src={`/${src}`} alt={alt} className="w-28 h-28 min-w-28 min-h-28 object-cover rounded-lg"/>)
+                        return (<img src={`${src}`} alt={alt} className="w-28 h-28 min-w-28 min-h-28 object-cover rounded-lg"/>)
                     },
                 }}
             >
-                {picMD ? picMD : "![](src/assets/post/null.png)"}
+                {picMD ? picMD : `![](/asset/posts/null.png)`}
             </ReactMarkdown>
             <div className={"flex flex-col pl-5 h-full justify-between py-1"}>
                 <p className={"text-xl font-extrabold text-wrap break-keep"}>
