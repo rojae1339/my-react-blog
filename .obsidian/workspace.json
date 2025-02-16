@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/React + react-markdown + obsidian md & auto front matter.md",
+                "file": "src/posts/sort post test.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "React + react-markdown + obsidian md & auto front matter"
+              "title": "sort post test"
             }
           }
         ]
@@ -186,11 +186,13 @@
   },
   "active": "7085c9aeb23d7cfa",
   "lastOpenFiles": [
+    "src/posts/React + react-markdown + obsidian md & auto front matter.md",
+    "src/posts/sort post test.md",
+    "src/components/postList/PostList.jsx~",
     "src/components/postList/PostSimple.jsx~",
     "public/asset/posts/null.png",
     "public/null.png",
     "src/posts/테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정.md",
-    "src/posts/React + react-markdown + obsidian md & auto front matter.md",
     "src/posts/post_templates/meta-template.md",
     "public/asset/posts/5cost.png",
     "public/asset/무제.md",
@@ -207,7 +209,6 @@
     "src/const/extractHeadings.js",
     "src/styles/global.css~",
     "src/components/postDetails/PostHead.jsx~",
-    "src/App.css~",
     "src/posts/scripts/React router dom - outlet, 메인 레이아웃 설정.md",
     "src/components/profile/AboutMe.md",
     "node_modules/react-icons/README.md",

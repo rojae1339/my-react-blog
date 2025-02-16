@@ -18,10 +18,14 @@ const PostList = () => {
         )
         : objPosts;
 
+    const sortedPosts = [...filteredPosts].sort((a, b) =>
+        new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+    );
+
     return (
         <div className="flex flex-col flex-grow overflow-y-auto h-full w-full">
-            {filteredPosts.length > 0 ? (
-                filteredPosts.map(fmContent => {
+            {sortedPosts.length > 0 ? (
+                sortedPosts.map(fmContent => {
                     const picMD = extractFirstImage(fmContent.content);
                     const id = fmContent.frontmatter.id;
                     const title = fmContent.frontmatter.title;
