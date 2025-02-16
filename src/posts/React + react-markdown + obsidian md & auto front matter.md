@@ -44,7 +44,7 @@ Templater라는 플러그인으로 js코드를 이용해, 각종 자동화 처�
 	2. 토글을 키면 나오는 Enable folder templates도 켜기
 	3. 어떤 폴더 내부에 새로운 파일이 생성되면 Trigger될지 폴더경로와
 	   어떤 템플릿을 Trigger 시킬지 템플릿 파일경로 넣기
-	4. ![](src/posts/post_asset/templater%20configuration.png)
+	4. ![](src/assets/post/templater%20configuration.png)
 
 좋다 그럼 시작해보자.
 ### id autoincrement
@@ -115,7 +115,7 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 
 이런식으로 templater전용문법으로 적용시켜주면...
 
-![](src/posts/post_asset/templater%20auto%20increment.gif)
+![](src/assets/post/templater%20auto%20increment.gif)
 
 완료!!
 
@@ -250,7 +250,7 @@ export const frontmatterMapper = (str) => {
 
 적용을 하게되면
 
-![](src/posts/post_asset/code%20style.png)
+![](src/assets/post/code%20style.png)
 
 
 ***참고로 prism스타일이 아닌 hljs스타일은 코드스타일이 적용안되니 참고!@!***

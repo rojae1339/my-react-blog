@@ -20,7 +20,7 @@ const PostSimple = ({picMD, title, subTitle, date, usage}) => {
                     },
                 }}
             >
-                {picMD ? picMD : "![](src/posts/post_asset/null.png)"}
+                {picMD ? picMD : "![](src/assets/post/null.png)"}
             </ReactMarkdown>
             <div className={"flex flex-col pl-5 h-full justify-between py-1"}>
                 <p className={"text-xl font-extrabold text-wrap break-keep"}>

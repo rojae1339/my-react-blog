@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "src/posts/post_asset",
+  "attachmentFolderPath": "src/assets/post",
   "newLinkFormat": "absolute",
   "useMarkdownLinks": true,
   "readableLineLength": false,
