@@ -6,7 +6,7 @@ tag: React Obsidian React-Blog
 date: 2025-02-11
 ---
 
-### 옵시디언 md파일 고유한 번호 붙이기
+## 옵시디언 md파일 고유한 번호 붙이기
 
 frontmatter를 자동적용 시키려면 템플릿 기능을 이용하면 된다.
 [템플릿 사용법](https://kaminik.tistory.com/entry/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8%EC%9D%98-%EA%B8%B0%EC%B4%88-9-%ED%85%9C%ED%94%8C%EB%A6%BFtemplates)
@@ -21,6 +21,8 @@ Templater라는 플러그인으로 js코드를 이용해, 각종 자동화 처�
 먼저 필요한건
 
 > test blockquote
+> 
+> sadfsdf
 
 - `id.json`파일
 	- 이게 필요한 이유는 딱 한가지다.
@@ -28,6 +30,7 @@ Templater라는 플러그인으로 js코드를 이용해, 각종 자동화 처�
 - `idIncrement.js` 파일
 	- 이게 필요한 이유도 딱 한가지다.
 	- 포스트를 생성하고 frontmatter를 적용했을때 id가 자동적으로 ++ 되도록 하기 위해
+
 
 먼저 가장 기본적인 templater의 사용방법은 다음과 같다.
 
@@ -44,7 +47,7 @@ Templater라는 플러그인으로 js코드를 이용해, 각종 자동화 처�
 	4. ![](src/posts/post_asset/templater%20configuration.png)
 
 좋다 그럼 시작해보자.
-#### id autoincrement
+### id autoincrement
 
 먼저 블로그 폴더 경로의 하위경로중 하나에 `id.json`파일을 만들고 열은다음
 
@@ -119,7 +122,7 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 
 ---
 
-### react내부에서 markdown 출력하기 + react syntax highlighter
+## react내부에서 markdown 출력하기 + react syntax highlighter
 
 react 내부에서 markdown을 매핑해서 태그로 묶어서 출력해주기로 했다
 
@@ -132,7 +135,7 @@ react 내부에서 markdown을 매핑해서 태그로 묶어서 출력해주기�
 
 먼저 블로그에 표시할 md파일을 import해준다.
 
-#### 폴더 하위의 파일 전부 불러오는 법 
+### 폴더 하위의 파일 전부 불러오는 법 
 
 다만, vite에서는 import문으로 어떤 폴더 하위의 모든 파일을 불러오기가 쉽지않다.
 
@@ -209,7 +212,7 @@ export const frontmatterMapper = (str) => {
 크게 어려운 코드는 아니다.
 `---` 2개를 기준으로 split해주고, frontmatter부분은 key와 value부분으로 나누어서 파싱해주는게 전부이다.
 
-#### react syntax highlighter + react markdown 사용!
+### react syntax highlighter + react markdown 사용!
 
 ```jsx
 <ReactMarkdown  

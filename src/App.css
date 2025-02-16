@@ -1,5 +1,5 @@
 @import "tailwindcss";
 
 body {
-    @apply bg-[#fefbf5] h-full w-full
+    @apply bg-[#fefbf5] h-full w-full text-wrap break-keep
 }

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정.md",
+                "file": "src/posts/React + react-markdown + obsidian md & auto front matter.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정"
+              "title": "React + react-markdown + obsidian md & auto front matter"
             }
           },
           {
@@ -198,23 +198,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6e5a29254b787f5d",
+  "active": "7dc767ce4edac9bc",
   "lastOpenFiles": [
-    "src/posts/post_asset/custom on basic style.png",
+    "src/components/postDetails/PostMain.jsx~",
+    "src/components/additionalPanel/Panel.jsx~",
+    "src/const/addHeadingsToContent.js",
+    "src/components/postList/PostSimple.jsx~",
+    "src/const/extractHeadings.js",
     "src/styles/global.css~",
-    "src/posts/React + react-markdown + obsidian md & auto front matter.md",
     "src/posts/테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정.md",
+    "src/components/postDetails/PostHead.jsx~",
+    "src/posts/React + react-markdown + obsidian md & auto front matter.md",
+    "src/App.css~",
+    "src/posts/post_asset/code style.png",
+    "src/components/SearchBar.jsx~",
+    "src/pages/MainPageLayout.jsx~",
+    "src/const/findCurrentPost.js",
+    "src/posts/scripts/React router dom - outlet, 메인 레이아웃 설정.md",
+    "src/posts/post_asset/custom on basic style.png",
     "src/posts/post_asset/code style.png",
     "src/components/profile/AboutMe.md",
-    "src/components/profile/Description.jsx~",
-    "node_modules/react-icons/lib/index.d.ts",
-    "node_modules/react-icons/gi/index.d.ts",
-    "node_modules/react-icons/lib/index.mjs",
-    "node_modules/react-icons/hi2/package.json",
-    "node_modules/react-icons/hi2/index.d.ts",
-    "node_modules/react-icons/hi2/index.mjs",
-    "node_modules/react-icons/hi2/index.js",
-    "node_modules/react-icons/hi2",
     "node_modules/react-icons/README.md",
     "src/assets/profile-background.jpg",
     "src/posts/post_asset/5cost.png",
@@ -223,9 +226,7 @@
     "src/posts/post_asset/null.jpg",
     "src/assets/profile.jpg",
     "src/assets/test1.jpg",
-    "src/posts/post_asset/templater auto increment.gif",
     "src/posts/post_templates/meta-template.md",
-    "src/posts/post_asset/templater configuration.png",
     "src/posts/post.md",
     "src/posts/test6.md",
     "src/posts/test5.md",

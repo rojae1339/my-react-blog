@@ -7,7 +7,7 @@ const ProfileNavs = () => {
     const location = useLocation();
 
     return (
-        <ul className="profile-nav pt-14 w-full">
+        <ul className="list-style-none pt-14 w-full">
             {NavItems.map((item, index) => {
                 const isActive = location.pathname === item.path;
                 const isHovered = hoveredNav === item.path;
@@ -23,6 +23,7 @@ const ProfileNavs = () => {
                             `}
                             onMouseEnter={() => setHoveredNav(item.path)}
                             onMouseLeave={() => setHoveredNav(null)}
+                            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                         >
                             <item.icon />
                             <span>{item.name}</span>

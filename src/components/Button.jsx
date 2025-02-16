@@ -1,8 +1,14 @@
-const Button = ({content}) => {
+import {usePosts} from "./hooks/usePosts.js";
+import {Link} from "react-router-dom";
+
+const Button = ({content, count, url}) => {
+
     return (
-        <button>
-            asd
-        </button>
+        <Link to={url}
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+            {content}
+            {count ? count : ""}
+        </Link>
     )
 }
 

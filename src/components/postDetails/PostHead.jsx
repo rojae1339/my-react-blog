@@ -7,14 +7,14 @@ const PostHead = ({frontmatter}) => {
     const date = frontmatter[JsonKeys.DATE]
 
     return (
-        <header>
-            <h1>
+        <header className={"border-b-[1px] pb-6 border-gray-300 flex flex-col gap-1"}>
+            <h1 className={"text-[35px] font-bold text-gray-900 text-wrap break-keep"}>
                 {title}
             </h1>
-            <h2>
+            <span className={"text-[18px] font-bold text-gray-700"}>
                 {subTitle}
-            </h2>
-            <div>
+            </span>
+            <div className={"text-[10px]"}>
                 {date}
             </div>
         </header>
