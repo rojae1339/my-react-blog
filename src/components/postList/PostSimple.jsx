@@ -16,8 +16,8 @@ const PostSimple = ({picMD, title, subTitle, date, usage}) => {
                 rehypePlugins={[rehypeRaw]}
                 components={{
                     img: ({ src, alt }) => {
-                        console.log(src);
-                        return (<img src={`${src}`} alt={alt} className="w-28 h-28 min-w-28 min-h-28 object-cover rounded-lg"/>)
+                        const adjustedSrc = src.startsWith("/") ? src : `/asset/post/${src}`;
+                        return (<img src={`${adjustedSrc}`} alt={alt} className="w-28 h-28 min-w-28 min-h-28 object-cover rounded-lg"/>)
                     },
                 }}
             >

@@ -186,9 +186,9 @@
   },
   "active": "7085c9aeb23d7cfa",
   "lastOpenFiles": [
+    "src/components/postList/PostSimple.jsx~",
     "public/asset/posts/null.png",
     "public/null.png",
-    "src/components/postList/PostSimple.jsx~",
     "src/posts/테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정.md",
     "src/posts/React + react-markdown + obsidian md & auto front matter.md",
     "src/posts/post_templates/meta-template.md",
@@ -214,7 +214,6 @@
     "src/assets/profile-background.jpg",
     "src/posts/post_asset/img.png",
     "src/posts/post_asset/null.jpg",
-    "src/assets/profile.jpg",
     "src/posts/post.md",
     "src/posts/test6.md",
     "src/posts/test5.md",
