@@ -113,7 +113,12 @@ const PostMain = ({content}) => {
                                 {children}
                             </a>
                         )
-                    }
+                    },
+                    img: ({ src, alt }) => {
+                        //todo img 출력안됨
+                        const strings = src.split("public");
+                        return (<img src={`${strings[1]}`} alt={alt}/>)
+                    },
                 }}
             >
                 {content}

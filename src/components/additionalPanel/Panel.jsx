@@ -16,8 +16,6 @@ const Panel = ({panelTitle, dateFilteredPost, isTag, tags}) => {
     const currentPost = findCurrentPost(postTitle, posts);
     const headings = currentPost ? extractHeadings(currentPost.content) : [];
 
-    console.log(headings);
-
     return (
         <div className={`border-l-[1px] border-gray-200 pl-6 text-sm font-bold pr-4`}>
             {panelTitle}
