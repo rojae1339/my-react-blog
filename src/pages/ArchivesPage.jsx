@@ -1,10 +1,19 @@
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import {usePosts} from "../components/hooks/usePosts.js";
 import {Link} from "react-router-dom";
 
 const ArchivesPage = () => {
     const posts = usePosts();
-    const [openYears, setOpenYears] = useState({});
+
+    // sessionStorage에서 openYears 상태를 불러옴
+    const [openYears, setOpenYears] = useState(() => {
+        const savedState = sessionStorage.getItem("openYears");
+        return savedState ? JSON.parse(savedState) : {};
+    });
+
+    useEffect(() => {
+        sessionStorage.setItem("openYears", JSON.stringify(openYears));
+    }, [openYears]);
 
     const postsByYear = posts.reduce((acc, post) => {
         const year = new Date(post.frontmatter.date).getFullYear();
@@ -18,7 +27,11 @@ const ArchivesPage = () => {
     });
 
     const toggleYear = (year) => {
-        setOpenYears(prev => ({...prev, [year]: !prev[year]}));
+        setOpenYears(prev => {
+            const newState = {...prev, [year]: !prev[year]};
+            sessionStorage.setItem("openYears", JSON.stringify(newState));
+            return newState;
+        });
     };
 
     return (
@@ -41,7 +54,7 @@ const ArchivesPage = () => {
 
                             {openYears[year] && (
                                 <ul className="relative border-l-2 border-gray-300 ml-5 pl-4">
-                                    {postsByYear[year].map((post, index) => {
+                                    {postsByYear[year].map((post) => {
                                         const date = new Date(post.frontmatter.date);
                                         const day = date.getDate();
                                         const month = date.toLocaleString("en-US", {month: "short"});

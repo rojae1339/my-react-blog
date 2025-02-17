@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/sort post test2.md",
+                "file": "src/posts/React + react-markdown + obsidian md & auto front matter.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "sort post test2"
+              "title": "React + react-markdown + obsidian md & auto front matter"
             }
           }
         ]
@@ -186,9 +186,12 @@
   },
   "active": "7085c9aeb23d7cfa",
   "lastOpenFiles": [
+    "src/posts/react-router-dom의 Outlet컴포넌트.md",
+    "src/posts/Session storage로 창 바뀌어도 상태 변경 및 유지하는 법.md",
+    "src/posts/post.md",
+    "src/posts/sort post test2.md",
     "src/posts/sort post test1.md",
     "src/posts/sort post test.md",
-    "src/posts/sort post test2.md",
     "src/pages/ArchivesPage.jsx~",
     "src/posts/React + react-markdown + obsidian md & auto front matter.md",
     "src/components/postList/PostList.jsx~",
@@ -217,7 +220,6 @@
     "src/assets/profile-background.jpg",
     "src/posts/post_asset/img.png",
     "src/posts/post_asset/null.jpg",
-    "src/posts/post.md",
     "src/posts/test6.md",
     "src/posts/test5.md",
     "src/posts/test4.md",
@@ -229,7 +231,6 @@
     "src/posts/title.md",
     "src/posts/무제 1.md",
     "src/posts/2 post.md",
-    "src/posts/3 test.md",
-    "src/posts/2 test.md"
+    "src/posts/3 test.md"
   ]
 }
