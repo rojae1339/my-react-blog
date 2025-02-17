@@ -4,35 +4,22 @@ import {MdCancel} from "react-icons/md";
 import {createContext, useContext, useEffect, useRef, useState} from "react";
 import {SearchContext} from "../context/SearchContextProvider.jsx";
 import {useSearch} from "./hooks/useSearch.js";
+import {useSearchBar} from "../context/ScrollContextProvider.jsx";
 
 const SearchBar = ({isPostDetail}) => {
     const loc = useLocation()
-    const pathString = loc.pathname.split("/")[1];
+    const pathString = loc.pathname.split("/");
+
+    console.log(pathString);
 
     const {searchInput, setSearchInput} = useSearch();
-    const [scroll, setScroll] = useState(false);
-
-    const handleScroll = () => {
-        if (window.scrollY >= 60) {
-            setScroll(true);
-        } else {
-            setScroll(false);
-        }
-
-    };
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll); //clean up
-        };
-    })
+    const {isScrolled} = useSearchBar();
 
     return (
         <div
-            className={`z-20 bg-[#fefbf5] fixed w-full border-b-[1px] border-gray-300 h-[60px] flex flex-row align-center items-center pr-[500px] pl-10 py-2 text-xs text-gray-600 transition-transform duration-700 ease-in-out ${scroll ? "-translate-y-full" : "translate-y-0"}`}>
+            className={`z-20 bg-[#fefbf5] fixed w-full border-b-[1px] border-gray-300 h-[60px] flex flex-row align-center items-center pr-[500px] pl-10 py-2 text-xs text-gray-600 transition-transform duration-700 ease-in-out ${isScrolled ? "-translate-y-full" : "translate-y-0"}`}>
             <div className={"font-bold text-nowrap min-w-32"}>
-                {isPostDetail ? decodeURIComponent(pathString) : pathString ? "Home > " + pathString : "Home"}
+                {isPostDetail ? decodeURIComponent(pathString[1]) : pathString.length > 2 ? "Home > " + pathString[1] + " > " + pathString[2] : pathString[1] !== "" ? "Home > " + pathString[1] : "Home"}
             </div>
             {!isPostDetail ? (
                 <div className={"pl-[750px]"}>

@@ -10,7 +10,7 @@ const Profile = () => {
 
 
     return (
-        <div className={"flex flex-col w-[364px] min-w-[364px] min-h-screen max-h-fit items-start pt-[80px] pb-8 pl-14 gap-3 bg-[#f9eddc] bg-cover"}>
+        <div className={"flex flex-col w-[364px] min-w-[364px] min-h-screen max-h-fit items-start pt-[80px] pb-8 pl-14 gap-3 bg-[#fcf5ed] bg-cover"}>
             <ProfilePicture />
             <ProfileTitle />
             <ProfileNavs />
