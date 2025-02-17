@@ -15,7 +15,7 @@ const PostDetail = () => {
 
     return (
         <div className={"px-10 pt-4 pb-6"}>
-            <PostHead frontmatter={post.frontmatter}/>
+            <PostHead frontmatter={post.frontmatter} content={post.content}/>
             <PostMain content={post.content}/>
         </div>
     )

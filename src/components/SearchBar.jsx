@@ -10,8 +10,6 @@ const SearchBar = ({isPostDetail}) => {
     const loc = useLocation()
     const pathString = loc.pathname.split("/");
 
-    console.log(pathString);
-
     const {searchInput, setSearchInput} = useSearch();
     const {isScrolled} = useSearchBar();
 
