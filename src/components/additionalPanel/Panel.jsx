@@ -1,18 +1,26 @@
 import PostSimple from "../postList/PostSimple.jsx";
 import Button from "../Button.jsx";
 import {useEffect, useState} from "react";
-import {useParams} from "react-router-dom";
+import {useLocation, useParams} from "react-router-dom";
 
 const Panel = ({panelTitle, posts, tag, headings}) => {
 
     const {postTitle} = useParams();
+    const location = useLocation()
 
-    const [headingKey, setheadingKeyKey] = useState(postTitle);
+    const [headingKey, setHeadingKeyKey] = useState(postTitle);
+    const [storedTags, setStoredTags] = useState(tag);
 
     // headings이 변경될 때마다 key를 업데이트하여 애니메이션 다시 적용
     useEffect(() => {
-        setheadingKeyKey(postTitle);
+        setHeadingKeyKey(postTitle);
     }, [postTitle]);
+
+    useEffect(() => {
+        if (tag && tag.length > 0) {
+            setStoredTags(tag);
+        }
+    }, [location.pathname]);
 
     return (
         <div className={`border-l-[1px] border-gray-200 pl-6 text-sm font-bold pr-4 animate-fade-in`}>
@@ -34,9 +42,9 @@ const Panel = ({panelTitle, posts, tag, headings}) => {
                             })
                         }
                     </div>
-                ) : tag ? (
+                ) : storedTags?.length > 0 ? (
                     <div className={"flex flex-row gap-2 flex-wrap pt-4"}>
-                        {tag.map(([tag, count], index) => {
+                        {storedTags.map(([tag, count], index) => {
 
                             return (
                                 <div key={`tag_${index}`} className={"text-xs font-light border-[1px] border-gray-400 rounded-4xl px-1 py-1"}>
