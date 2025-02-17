@@ -11,7 +11,10 @@ const PostSimple = ({picMD, title, subTitle, date, usage}) => {
 
     return usage === PostSimpleUsage.Homepage ?
     (
-        <Link to={`/${title}`} className={"flex flex-row pt-4 pb-4 border-b-[1px] border-gray-300 w-full"}>
+        <Link to={`/${title}`}
+              className={"flex flex-row pt-4 pb-4 border-b-[1px] border-gray-300 w-full"}
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
             <ReactMarkdown
                 rehypePlugins={[rehypeRaw]}
                 components={{
