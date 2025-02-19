@@ -16,7 +16,7 @@ const SearchBar = ({isPostDetail}) => {
         <div
             className={`
                 z-20 bg-[#fefbf5] fixed w-full border-b-[1px] border-gray-300 h-[60px] 
-                flex flex-row justify-between items-center pr-6 sm:pr-10 md:pr-[400px] pl-10 py-2 
+                flex flex-row justify-between items-center pr-8 sm:pr-10 md:pr-[400px] pl-10 py-2 
                 text-xs text-gray-600 
                 md:transition-transform md:duration-700 md:ease-in-out
                 ${isScrolled ? "md:-translate-y-full" : "translate-y-0"}
@@ -24,7 +24,7 @@ const SearchBar = ({isPostDetail}) => {
         >
 
             {/* 📌 현재 페이지 경로 표시 */}
-            <div className="font-bold text-nowrap min-w-32 truncate">
+            <div className="font-bold text-nowrap min-w-fit truncate">
                 {isPostDetail
                     ? decodeURIComponent(pathString[1])
                     : pathString.length > 2
