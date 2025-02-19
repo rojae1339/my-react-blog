@@ -47,7 +47,7 @@ const ArchivesPage = () => {
                         <div key={year}>
                             <button
                                 onClick={() => toggleYear(year)}
-                                className={`w-full text-left px-4 py-2 rounded-lg hover:cursor-pointer hover:shadow-sm focus:outline-0 font-bold text-sm ${openYears[year] ? "shadow-inner" : "shadow-none"}`}
+                                className={`w-full text-left px-4 py-2 rounded-md border-gray-200 hover:cursor-pointer hover:border-[1px] focus:outline-0 font-bold text-sm ${openYears[year] ? "shadow-inner" : "shadow-none"}`}
                             >
                                 {year} {openYears[year] ? "▼" : "▶"}
                             </button>

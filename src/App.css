@@ -4,7 +4,7 @@ body {
     @apply bg-[#fefbf5] h-full w-full text-wrap break-keep overflow-auto overflow-x-hidden
 }
 
-@media (max-width: 380px) {
+@media (max-width: 374px) {
     .profile-container {
         display: block; /* ❌ 기존: display: none; 제거 */
         transform: translateX(-100%); /* 왼쪽으로 숨김 */
