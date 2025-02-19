@@ -52,7 +52,7 @@ const PostList = ({tagTitle, tagCount}) => {
     const tagFilteredPosts = objPosts.filter(fmcontent => fmcontent.frontmatter.tag?.some(t => t === tag))
 
     return (
-        <div className="flex flex-col flex-grow overflow-y-auto h-full w-full">
+        <div className="flex flex-col flex-grow overflow-y-auto h-full w-full px-4 sm:px-6 md:px-10 pt-4 ">
             {sortedPosts.length > 0 && tagFilteredPosts.length === 0 ? (
                 renderPostSimple(sortedPosts)
             ) : tagFilteredPosts.length > 0 ? (

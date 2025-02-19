@@ -11,6 +11,7 @@ import {SearchContextProvider} from "./context/SearchContextProvider.jsx";
 import TagsSearchPage from "./pages/TagsSearchPage.jsx";
 import MainPageLayout from "./pages/MainPageLayout.jsx";
 import {ScrollContextProvider} from "./context/ScrollContextProvider.jsx";
+import {MobileProfileTogleContextProvider} from "./context/MobileProfileTogleContextProvider.jsx";
 
 function App() {
     const posts = import.meta.glob("/src/posts/*.md", {eager: true, as: "raw"});
@@ -25,18 +26,20 @@ function App() {
         <PostsProvider posts={fmMappedPosts}>
             <SearchContextProvider>
                 <ScrollContextProvider>
-                    <BrowserRouter>
-                        <Routes>
-                            <Route element={<MainPageLayout/>}>
-                                <Route path={"/"} element={<HomePage/>}/>
-                                <Route path={"/:postTitle"} element={<PostDetailPage/>}/>
-                                <Route path={"/tags"} element={<TagsPage/>}/>
-                                <Route path={"/tags/:tag"} element={<TagsSearchPage/>}/>
-                                <Route path={"/archives"} element={<ArchivesPage/>}/>
-                                <Route path={"about-me"} element={<AboutmePage/>}/>
-                            </Route>
-                        </Routes>
-                    </BrowserRouter>
+                    <MobileProfileTogleContextProvider>
+                        <BrowserRouter>
+                            <Routes>
+                                <Route element={<MainPageLayout/>}>
+                                    <Route path={"/"} element={<HomePage/>}/>
+                                    <Route path={"/:postTitle"} element={<PostDetailPage/>}/>
+                                    <Route path={"/tags"} element={<TagsPage/>}/>
+                                    <Route path={"/tags/:tag"} element={<TagsSearchPage/>}/>
+                                    <Route path={"/archives"} element={<ArchivesPage/>}/>
+                                    <Route path={"about-me"} element={<AboutmePage/>}/>
+                                </Route>
+                            </Routes>
+                        </BrowserRouter>
+                    </MobileProfileTogleContextProvider>
                 </ScrollContextProvider>
             </SearchContextProvider>
         </PostsProvider>

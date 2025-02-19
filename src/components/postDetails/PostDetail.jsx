@@ -14,7 +14,8 @@ const PostDetail = () => {
     const post = findCurrentPost(postTitle, objPosts);
 
     return (
-        <div className={"px-10 pt-4 pb-6"}>
+        <div className="px-2 sm:px-6 md:px-10 pt-4 pb-6">
+
             <PostHead frontmatter={post.frontmatter} content={post.content}/>
             <PostMain content={post.content}/>
         </div>

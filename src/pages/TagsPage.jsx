@@ -8,7 +8,7 @@ const TagsPage = () => {
 
 
     return (
-        <div className={"my-10"}>
+        <div className={"my-10 px-2 sm:px-6 md:px-10 pt-4 "}>
             <div className={"text-xl font-bold pl-10  border-l-[1px] border-gray-300"}>
                 Tags
             </div>

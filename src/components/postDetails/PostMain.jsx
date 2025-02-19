@@ -116,7 +116,7 @@ const PostMain = ({content}) => {
                     },
                     img: ({ src, alt }) => {
                         const strings = src.split("public");
-                        return (<img src={`${strings[1]}`} alt={alt}/>)
+                        return (<img src={`${strings[1]}`} alt={alt} className="max-w-full h-auto rounded-lg shadow-md"/>)
                     },
                 }}
             >

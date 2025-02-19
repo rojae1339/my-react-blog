@@ -47,7 +47,7 @@ const Panel = ({panelTitle, posts, tag, headings}) => {
                         {storedTags.map(([tag, count], index) => {
 
                             return (
-                                <div key={`tag_${index}`} className={"text-xs font-light border-[1px] border-gray-400 rounded-4xl px-1 py-1"}>
+                                <div key={`tag_${index}`} className={"text-xs text-gray-400 font-light border-[1px] border-gray-200 shadow-md rounded-4xl px-1 py-1"}>
                                     <Button content={tag} url={`/tags/${tag}`}/>
                                 </div>
                             )

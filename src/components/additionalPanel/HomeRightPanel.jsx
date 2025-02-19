@@ -35,7 +35,7 @@ const HomeRightPanel = () => {
     const headings = currentPost ? extractHeadings(currentPost.content) : [];
 
     return (
-        <div className={`flex flex-col gap-10 transition-transform duration-700 ease-in-out ${isScrolled ? "-translate-y-[60px]" : "translate-y-0"}`}>
+        <div className={`md:w-[180px] lg:w-[250px] xl:w-[320px] flex flex-col gap-10 transition-transform duration-700 ease-in-out ${isScrolled ? "-translate-y-[60px]" : "translate-y-0"}`}>
             <Panel panelTitle={"Recently Post"} posts={dateFilteredPosts}/>
             <Panel panelTitle={"Recommend tags"} tag={topTags}/>
             {postTitle ? <Panel panelTitle={"Content"} headings={headings}/> : null}

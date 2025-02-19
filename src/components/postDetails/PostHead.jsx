@@ -31,7 +31,8 @@ const PostHead = ({frontmatter, content}) => {
 
     return (
         <header className="border-b-[1px] pb-6 border-gray-300 flex flex-col gap-1">
-            <h1 className="text-[35px] font-bold text-gray-900 text-wrap break-keep">
+            <h1 className="text-[24px] sm:text-[28px] md:text-[32px] lg:text-[35px] font-bold text-gray-900 break-keep">
+
                 {title}
             </h1>
             <span className="text-[18px] font-bold text-gray-700">
