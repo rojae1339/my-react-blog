@@ -15,7 +15,7 @@ const SearchBar = ({isPostDetail}) => {
         <div
             className={`
                 z-20 bg-[#fefbf5] fixed w-full border-b-[1px] md:-ml-[15px] border-gray-300 h-[60px] 
-                flex flex-row justify-between items-center pr-8 sm:pr-10 md:pr-[400px] pl-10 py-2 
+                flex flex-row justify-between items-center pr-8 sm:pr-10 md:pr-[300px] lg:pr-[400px] pl-10 py-2 
                 text-xs text-gray-600 
                 md:transition-transform md:duration-700 md:ease-in-out
                 ${isScrolled ? "md:-translate-y-full" : "translate-y-0"}
@@ -23,7 +23,7 @@ const SearchBar = ({isPostDetail}) => {
         >
 
             {/* 📌 현재 페이지 경로 표시 */}
-            <div className="font-bold text-nowrap min-w-fit truncate">
+            <div className="flex-grow overflow-hidden text-ellipsis whitespace-nowrap font-bold">
                 {isPostDetail
                     ? decodeURIComponent(pathString[1])
                     : pathString.length > 2
@@ -33,6 +33,7 @@ const SearchBar = ({isPostDetail}) => {
                             : "Home"
                 }
             </div>
+
 
             {/* 📌 검색바 (홈 화면에서만 표시) */}
             {pathString[1] === "" && (
