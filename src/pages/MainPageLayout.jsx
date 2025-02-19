@@ -35,7 +35,7 @@ const MainPageLayout = () => {
             </div>
 
             {/* 메인 컨텐츠 영역 (변경되는 부분) */}
-            <div className="flex flex-col flex-grow max-w-screen md:ml-[364px]">
+            <div className="flex flex-col flex-grow max-w-screen md:ml-[300px] lg:ml-[364px]">
                 {postTitle ? <SearchBar isPostDetail={true}/> : <SearchBar isPostDetail={false}/>}
                 <div className="flex flex-row w-full">
                     {/* 여기가 페이지별로 변경될 부분 */}

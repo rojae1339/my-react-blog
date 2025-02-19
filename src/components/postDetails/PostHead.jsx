@@ -18,39 +18,36 @@ const calculateReadingTime = (text) => {
 const PostHead = ({frontmatter, content}) => {
     const title = frontmatter[JsonKeys.TITLE];
     const subTitle = frontmatter[JsonKeys.SUB_TITLE];
-    const date = frontmatter[JsonKeys.DATE]; // 📌 내용 가져오기
+    const date = frontmatter[JsonKeys.DATE];
 
     const [readingTime, setReadingTime] = useState({minutes: 0, seconds: 0});
 
     useEffect(() => {
         if (content) {
-            console.log(readingTime);
             setReadingTime(calculateReadingTime(content));
         }
     }, [content]);
 
     return (
-        <header className="border-b-[1px] pb-6 border-gray-300 flex flex-col gap-1">
+        <header className="border-b-[1px] pb-6 border-gray-300 flex flex-col gap-1 w-full">
             <h1 className="text-[24px] sm:text-[28px] md:text-[32px] lg:text-[35px] font-bold text-gray-900 break-keep">
-
                 {title}
             </h1>
             <span className="text-[18px] font-bold text-gray-700">
                 {subTitle}
             </span>
-            <div className="pt-1 text-[14px] text-gray-600 flex flex-row gap-4">
+            <div className="pt-1 text-[14px] text-gray-600 flex flex-wrap justify-between">
                 <div>
                     {date}
                 </div>
-                <div className={"pl-[540px] text-[14px] text-gray-400"}>
-                    분당 {avgReadingSpeed}단어
-                </div>
-                <div className={"text-[14px] text-gray-400"}>
-                    📖 {readingTime.minutes}분 {readingTime.seconds}초
+                <div className="flex gap-4 text-gray-400">
+                    <div>분당 {avgReadingSpeed}단어</div>
+                    <div>📖 {readingTime.minutes}분 {readingTime.seconds}초</div>
                 </div>
             </div>
         </header>
     );
 };
+
 
 export default PostHead;
