@@ -21,7 +21,7 @@ const MainPageLayout = () => {
 
             {/* 햄버거 메뉴 버튼 (모바일) */}
             <button
-                className="mobile-menu-btn absolute top-4 left-4 z-50 md:hidden"
+                className="mobile-menu-btn fixed top-4 left-4 z-50 md:hidden"
                 onClick={() => {
                     setIsMenuOpen(!isMenuOpen)
                 }}
