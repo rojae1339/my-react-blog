@@ -18,7 +18,7 @@ const ProfileNavs = () => {
                     <li key={`nav_${index}`} className="relative">
                         <Link
                             to={item.path}
-                            className={`pl-2 flex flex-row gap-5 w-full h-10 items-center text-sm cursor-pointer
+                            className={`rounded-l-xl pl-2 flex flex-row gap-5 w-full h-10 items-center text-sm cursor-pointer
                                 ${isHovered ? "border-r-4 text-amber-700" : ""}
                                 ${!hoveredNav && isActive ? "bg-[#f9ece1] border-r-4 text-amber-700 font-extrabold" : ""}
                                 transition-all duration-75 ease-linear
