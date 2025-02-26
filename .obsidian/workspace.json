@@ -199,6 +199,7 @@
   },
   "active": "6e5a29254b787f5d",
   "lastOpenFiles": [
+    "src/components/additionalPanel/Panel.jsx~",
     "src/posts/6 예측 가능성 편.md",
     "public/asset/posts/predictability.png",
     "public/asset/posts/blog total.png",
@@ -214,7 +215,6 @@
     "public/asset/posts/blog_postdetail.png",
     "src/posts/data/id.json~",
     "src/components/hooks/useSortedPostsAndTags.js~",
-    "src/components/additionalPanel/Panel.jsx~",
     "node_modules/vite/dist/node/chunks/dep-zaPmCqbl.js",
     "node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js",
     "node_modules/@rollup/rollup-linux-x64-gnu",

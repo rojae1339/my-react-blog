@@ -77,7 +77,7 @@ const Panel = ({ panelTitle, posts, tag, headings }) => {
                     ))}
                 </div>
             ) : headings.length > 0 ? (
-                <ul key={headingKey} className="max-h-[calc(100vh-500px)] overflow-y-auto list-style-none pt-4 flex flex-col gap-2 animate-fade-in">
+                <ul key={headingKey} className="max-h-[calc(100vh-560px)] overflow-y-auto list-style-none pt-4 flex flex-col gap-2 animate-fade-in">
                     {headings.map(({ level, text, id }) => (
                         <li
                             key={id}
