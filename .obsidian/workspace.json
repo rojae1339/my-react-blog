@@ -11,17 +11,44 @@
             "id": "7085c9aeb23d7cfa",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "public/asset/posts/blog_postdetail.png"
+              },
+              "icon": "lucide-image",
+              "title": "blog_postdetail"
+            }
+          },
+          {
+            "id": "050f5cf45d7da7d4",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/Session storage로 창 바뀌어도 상태 변경 및 유지하는 법.md",
+                "file": "src/posts/프론트엔드 좋은 코드란 무엇인가.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Session storage로 창 바뀌어도 상태 변경 및 유지하는 법"
+              "title": "프론트엔드 좋은 코드란 무엇인가"
+            }
+          },
+          {
+            "id": "5d4b2d09b2693bb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/posts/JS promise async await 확실히 파헤치기!.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "JS promise async await 확실히 파헤치기!"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,43 +211,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7085c9aeb23d7cfa",
+  "active": "050f5cf45d7da7d4",
   "lastOpenFiles": [
-    "public/asset/posts/Pasted image 20250218095513.png",
-    "public/asset/posts/Pasted image 20250218095046.png",
-    "src/posts/sort post test1.md",
-    "src/posts/sort post test2.md",
+    "src/posts/JS promise async await 확실히 파헤치기!.md",
+    "src/posts/프론트엔드 좋은 코드란 무엇인가.md",
+    "public/asset/posts/good code bad code.png",
+    "public/asset/posts/blog_postdetail.png",
+    "src/posts/data/id.json~",
     "src/posts/react-router-dom의 Outlet컴포넌트.md",
-    "src/posts/Session storage로 창 바뀌어도 상태 변경 및 유지하는 법.md",
-    "src/components/postDetails/PostHead.jsx~",
+    "src/posts/테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정.md",
     "src/posts/React + react-markdown + obsidian md & auto front matter.md",
-    "src/components/additionalPanel/HomeRightPanel.jsx~",
+    "src/components/additionalPanel/Panel.jsx~",
+    "src/styles/global.css~",
+    "src/components/postDetails/PostMain.jsx~",
+    "src/components/SearchBar.jsx~",
+    "src/components/profile/Profile.jsx~",
     "src/posts/post.md",
+    "src/posts/sort post test1.md",
+    "src/pages/MainPageLayout.jsx~",
+    "src/assets/20180918_210203.jpg",
+    "src/components/profile/ProfilePicture.jsx~",
+    "public/asset/posts/blog_tags.png",
+    "public/asset/posts/blog_home.png",
+    "public/asset/posts/Pasted image 20250218095046.png",
+    "public/asset/posts/Pasted image 20250218095513.png",
+    "src/posts/Session storage로 창 바뀌어도 상태 변경 및 유지하는 법.md",
+    "index.html~",
+    "src/posts/sort post test2.md",
+    "src/components/postDetails/PostHead.jsx~",
     "src/posts/sort post test.md",
-    "src/pages/ArchivesPage.jsx~",
-    "src/components/postList/PostList.jsx~",
-    "src/components/postList/PostSimple.jsx~",
     "public/asset/posts/null.png",
     "public/null.png",
-    "src/posts/테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정.md",
     "src/posts/post_templates/meta-template.md",
     "public/asset/posts/5cost.png",
     "public/asset/무제.md",
-    "public/asset/posts",
-    "public/asset",
     "public/무제.md",
-    "src/components/additionalPanel/Panel.jsx~",
-    "public/asset/posts/templater configuration.png",
-    "public/asset/posts/code style.png",
-    "public/asset/posts/custom on basic style.png",
-    "public/asset/posts/templater auto increment.gif",
-    "src/components/postDetails/PostMain.jsx~",
-    "src/const/addHeadingsToContent.js",
     "src/posts/scripts/React router dom - outlet, 메인 레이아웃 설정.md",
     "src/components/profile/AboutMe.md",
     "node_modules/react-icons/README.md",
-    "src/assets/profile-background.jpg",
-    "src/posts/post_asset/img.png",
     "src/posts/test6.md",
     "src/posts/test5.md",
     "src/posts/test4.md",
@@ -229,8 +257,6 @@
     "src/posts/test1.md",
     "src/posts/test.md",
     "src/posts/test post.md",
-    "src/posts/title.md",
-    "src/posts/무제 1.md",
-    "src/posts/2 post.md"
+    "src/posts/title.md"
   ]
 }

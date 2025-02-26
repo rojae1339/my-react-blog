@@ -57,7 +57,7 @@ const Panel = ({panelTitle, posts, tag, headings}) => {
                     headings.length > 0 ? (
                         <ul key={headingKey} className="list-style-none pt-4 flex flex-col gap-2 animate-fade-in">
                             {headings.map(({level, text, id}) => (
-                                <li key={id} style={{paddingLeft: `${(level - 2) * 16}px`}}>
+                                <li key={id} style={{paddingLeft: `${(level - 2) * 20}px`}}>
                                     <button
                                         className="text-xs font-light text-gray-500 hover:underline truncate block max-w-full w-fit"
                                         onClick={() => {

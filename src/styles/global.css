@@ -13,7 +13,7 @@ blockquote {
 
 /*list tag style*/
 ul {
-    @apply list-disc list-inside
+    @apply list-disc
 }
 
 /* global.css */
@@ -58,7 +58,7 @@ hr {
 
 /*inline code block style*/
 code {
-    @apply overflow-x-auto px-1 h-fit bg-[#181914] text-[#dccf8f] rounded-sm whitespace-pre-wrap inline-block break-keep leading-[18px] align-middle
+    @apply overflow-x-auto px-1 h-fit bg-[#e5e2dc] text-[#724e0a] rounded-sm whitespace-pre-wrap inline-block break-keep leading-[18px] align-middle
 }
 
 pre {
@@ -66,7 +66,7 @@ pre {
 }
 
 pre code {
-    @apply px-0
+    @apply px-0 bg-[#171814]
 }
 
 /*code block style*/

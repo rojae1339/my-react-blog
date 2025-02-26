@@ -1,6 +1,6 @@
 ---
 id: 1
-title: 리액트로 옵시디언 + 마크다운을 이용한 블로그 만들기
+title: [React] 리액트로 옵시디언 + 마크다운을 이용한 블로그 만들기
 subTitle: React + (react-markdown + react-syntax-highlighter) + (obsidian md & auto fix front matter)
 tag: React Obsidian React-Blog 
 date: 2025-02-11

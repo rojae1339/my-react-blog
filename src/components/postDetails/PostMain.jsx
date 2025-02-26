@@ -25,7 +25,6 @@ const PostMain = ({content}) => {
                                 language={match[1]}
                                 PreTag="pre"
                                 style={pojoaque}
-
                             >
                                 {String(children).replace(/\n$/, "")}
                             </SyntaxHighlighter>
@@ -45,7 +44,7 @@ const PostMain = ({content}) => {
                     h2: ({children}) => {
                         const id = String(children).toLowerCase().replace(/\s+/g, "-");
                         return (
-                            <h2 id={id} className={"text-[38px] pb-2 font-semibold"}>
+                            <h2 id={id} className={"text-[38px] pt-4 pb-2 font-semibold"}>
                                 {children}
                             </h2>
                         )
@@ -55,7 +54,7 @@ const PostMain = ({content}) => {
                     h3:({children}) => {
                         const id = String(children).toLowerCase().replace(/\s+/g, "-");
                         return (
-                            <h3 id={id} className={"text-[32px] pb-2 font-semibold"}>
+                            <h3 id={id} className={"text-[32px]  pt-4 pb-2 font-semibold"}>
                                 {children}
                             </h3>
                         )
@@ -63,7 +62,7 @@ const PostMain = ({content}) => {
                     h4:({node, children}) => {
                         const id = String(children).toLowerCase().replace(/\s+/g, "-");
                         return (
-                            <h4 id={id} className={"text-[26px] pb-2 font-semibold"}>
+                            <h4 id={id} className={"text-[26px]  pt-4 pb-2 font-semibold"}>
                                 {children}
                             </h4>
                         )
@@ -71,7 +70,7 @@ const PostMain = ({content}) => {
                     h5:({node, children}) => {
                         const id = String(children).toLowerCase().replace(/\s+/g, "-");
                         return (
-                            <h5 id={id} className={"text-[22px] pb-2 font-semibold"}>
+                            <h5 id={id} className={"text-[22px]  pt-4 pb-2 font-semibold"}>
                                 {children}
                             </h5>
                         )
@@ -79,7 +78,7 @@ const PostMain = ({content}) => {
                     h6:({node, children}) => {
                         const id = String(children).toLowerCase().replace(/\s+/g, "-");
                         return (
-                            <h6 id={id} className={"text-[18px] pb-2 font-semibold"}>
+                            <h6 id={id} className={"text-[18px]  pt-4 pb-2 font-semibold"}>
                                 {children}
                             </h6>
                         )

@@ -8,5 +8,6 @@
   "defaultViewMode": "source",
   "livePreview": false,
   "showUnsupportedFiles": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }

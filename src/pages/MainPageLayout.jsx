@@ -16,7 +16,7 @@ const MainPageLayout = () => {
                 <div
                     className="fixed inset-0 bg-gray-500 opacity-50 z-30 md:hidden"
                     onClick={() => setIsMenuOpen(false)}
-                ></div>
+                />
             )}
 
             {/* 햄버거 메뉴 버튼 (모바일) */}
