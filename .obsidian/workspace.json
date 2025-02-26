@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "public/asset/posts/blog_postdetail.png"
+                "file": "public/asset/posts/blog total.png"
               },
               "icon": "lucide-image",
-              "title": "blog_postdetail"
+              "title": "blog total"
             }
           },
           {
@@ -25,26 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/프론트엔드 좋은 코드란 무엇인가.md",
+                "file": "src/posts/5 가독성 편.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "프론트엔드 좋은 코드란 무엇인가"
-            }
-          },
-          {
-            "id": "5d4b2d09b2693bb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/posts/JS promise async await 확실히 파헤치기!.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "JS promise async await 확실히 파헤치기!"
+              "title": "5 가독성 편"
             }
           }
         ],
@@ -67,7 +53,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabeticalReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -105,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 228.5
   },
   "right": {
     "id": "f84b7ade7a01c54c",
@@ -211,39 +197,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "050f5cf45d7da7d4",
+  "active": "6e5a29254b787f5d",
   "lastOpenFiles": [
-    "src/posts/JS promise async await 확실히 파헤치기!.md",
-    "src/posts/프론트엔드 좋은 코드란 무엇인가.md",
-    "public/asset/posts/good code bad code.png",
+    "src/posts/6 예측 가능성 편.md",
+    "public/asset/posts/predictability.png",
+    "public/asset/posts/blog total.png",
+    "src/posts/9 JS promise async await 확실히 파헤치기!.md",
+    "src/posts/5 가독성 편.md",
+    "src/posts/8 결합도 편.md",
+    "src/posts/2 테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정.md",
+    "src/posts/7 응집도 편.md",
+    "src/posts/4 좋은 코드.md",
+    "src/posts/3 react-router-dom의 Outlet컴포넌트.md",
+    "src/posts/1 React + react-markdown + obsidian md & auto front matter.md",
+    "public/asset/posts/legibility.png",
     "public/asset/posts/blog_postdetail.png",
     "src/posts/data/id.json~",
-    "src/posts/react-router-dom의 Outlet컴포넌트.md",
-    "src/posts/테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정.md",
-    "src/posts/React + react-markdown + obsidian md & auto front matter.md",
+    "src/components/hooks/useSortedPostsAndTags.js~",
     "src/components/additionalPanel/Panel.jsx~",
-    "src/styles/global.css~",
-    "src/components/postDetails/PostMain.jsx~",
-    "src/components/SearchBar.jsx~",
-    "src/components/profile/Profile.jsx~",
+    "node_modules/vite/dist/node/chunks/dep-zaPmCqbl.js",
+    "node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js",
+    "node_modules/@rollup/rollup-linux-x64-gnu",
+    "node_modules/@rollup/rollup-linux-s390x-gnu",
+    "node_modules/@rollup/rollup-linux-powerpc64le-gnu",
+    "node_modules/@rollup/rollup-linux-riscv64-gnu",
+    "node_modules/@rollup/rollup-linux-loongarch64-gnu",
+    "node_modules/@types/prismjs/README.md",
+    "public/asset/posts/good code bad code.png",
     "src/posts/post.md",
     "src/posts/sort post test1.md",
-    "src/pages/MainPageLayout.jsx~",
     "src/assets/20180918_210203.jpg",
-    "src/components/profile/ProfilePicture.jsx~",
     "public/asset/posts/blog_tags.png",
     "public/asset/posts/blog_home.png",
     "public/asset/posts/Pasted image 20250218095046.png",
     "public/asset/posts/Pasted image 20250218095513.png",
     "src/posts/Session storage로 창 바뀌어도 상태 변경 및 유지하는 법.md",
-    "index.html~",
     "src/posts/sort post test2.md",
-    "src/components/postDetails/PostHead.jsx~",
     "src/posts/sort post test.md",
-    "public/asset/posts/null.png",
-    "public/null.png",
     "src/posts/post_templates/meta-template.md",
-    "public/asset/posts/5cost.png",
     "public/asset/무제.md",
     "public/무제.md",
     "src/posts/scripts/React router dom - outlet, 메인 레이아웃 설정.md",
@@ -252,11 +243,6 @@
     "src/posts/test6.md",
     "src/posts/test5.md",
     "src/posts/test4.md",
-    "src/posts/test3.md",
-    "src/posts/test2.md",
-    "src/posts/test1.md",
-    "src/posts/test.md",
-    "src/posts/test post.md",
-    "src/posts/title.md"
+    "src/posts/test3.md"
   ]
 }

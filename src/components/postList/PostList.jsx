@@ -46,7 +46,7 @@ const PostList = ({tagTitle, tagCount}) => {
         : objPosts;
 
     const sortedPosts = [...searchFilteredPosts].sort((a, b) =>
-        new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+        new Date(b.frontmatter.id) - new Date(a.frontmatter.id)
     );
 
     const tagFilteredPosts = objPosts.filter(fmcontent => fmcontent.frontmatter.tag?.some(t => t === tag))

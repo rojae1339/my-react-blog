@@ -85,7 +85,7 @@ const PostMain = ({content}) => {
                     },
                     ul: ({children}) => {
                         return (
-                            <ul className={"pt-1 pl-4 pb-2 text-gray-500 italic"}>
+                            <ul className={"pt-1 pl-8 pb-2 text-gray-500 italic"}>
                                 {children}
                             </ul>
                         )
