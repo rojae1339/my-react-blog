@@ -49,7 +49,14 @@ const PostList = ({tagTitle, tagCount}) => {
         new Date(b.frontmatter.id) - new Date(a.frontmatter.id)
     );
 
-    const tagFilteredPosts = objPosts.filter(fmcontent => fmcontent.frontmatter.tag?.some(t => t === tag))
+    const tagFilteredPosts = objPosts.filter(fmcontent => {
+        return fmcontent.frontmatter.tag?.some(t => {
+            console.log(t);
+            return t === tag
+        })
+    })
+
+    console.log(tagFilteredPosts);
 
     return (
         <div className="flex flex-col flex-grow overflow-y-auto h-full w-full px-4 sm:px-6 md:px-10 pt-4 ">

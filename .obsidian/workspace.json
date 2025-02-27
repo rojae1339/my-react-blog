@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/5 가독성 편.md",
+                "file": "src/posts/9 JS promise async await 확실히 파헤치기!.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "5 가독성 편"
+              "title": "9 JS promise async await 확실히 파헤치기!"
             }
           }
         ],
@@ -213,10 +213,16 @@
   },
   "active": "370a962752b4a4b4",
   "lastOpenFiles": [
-    "src/posts/4 좋은 코드.md",
-    "src/posts/5 가독성 편.md",
-    "src/posts/7 응집도 편.md",
     "src/posts/8 결합도 편.md",
+    "src/posts/7 응집도 편.md",
+    "src/posts/6 예측 가능성 편.md",
+    "src/posts/5 가독성 편.md",
+    "src/posts/4 좋은 코드.md",
+    "src/components/postList/PostList.jsx~",
+    "src/components/additionalPanel/Panel.jsx~",
+    "src/components/additionalPanel/HomeRightPanel.jsx~",
+    "src/posts/3 react-router-dom의 Outlet컴포넌트.md",
+    "src/posts/1 React + react-markdown + obsidian md & auto front matter.md",
     "public/asset/posts/Pasted image 20250227163525.png",
     "public/asset/posts/coupling.png",
     "public/robots.txt",
@@ -225,20 +231,14 @@
     "index.html~",
     "src/components/postDetails/PostMain.jsx~",
     "public/asset/posts/cohesion.png",
-    "src/posts/6 예측 가능성 편.md",
-    "src/components/additionalPanel/Panel.jsx~",
     "public/asset/posts/predictability.png",
     "public/asset/posts/blog total.png",
     "src/posts/9 JS promise async await 확실히 파헤치기!.md",
     "src/posts/2 테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정.md",
-    "src/posts/3 react-router-dom의 Outlet컴포넌트.md",
-    "src/posts/1 React + react-markdown + obsidian md & auto front matter.md",
     "public/asset/posts/legibility.png",
     "public/asset/posts/blog_postdetail.png",
     "src/posts/data/id.json~",
     "src/components/hooks/useSortedPostsAndTags.js~",
-    "node_modules/vite/dist/node/chunks/dep-zaPmCqbl.js",
-    "node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js",
     "node_modules/@types/prismjs/README.md",
     "public/asset/posts/good code bad code.png",
     "src/posts/post.md",
