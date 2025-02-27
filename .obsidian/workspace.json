@@ -25,6 +25,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "src/posts/7 응집도 편.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "7 응집도 편"
+            }
+          },
+          {
+            "id": "370a962752b4a4b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "src/posts/5 가독성 편.md",
                 "mode": "source",
                 "source": true
@@ -197,18 +211,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6e5a29254b787f5d",
+  "active": "050f5cf45d7da7d4",
   "lastOpenFiles": [
-    "src/components/additionalPanel/Panel.jsx~",
+    "src/posts/8 결합도 편.md",
+    "public/asset/posts/Pasted image 20250227163525.png",
+    "public/asset/posts/coupling.png",
+    "src/posts/7 응집도 편.md",
+    "public/robots.txt",
+    "public/sitemap.xml~",
+    "public/sitemap.xml",
+    "index.html~",
+    "src/components/postDetails/PostMain.jsx~",
+    "src/posts/5 가독성 편.md",
+    "public/asset/posts/cohesion.png",
     "src/posts/6 예측 가능성 편.md",
+    "src/posts/4 좋은 코드.md",
+    "src/components/additionalPanel/Panel.jsx~",
     "public/asset/posts/predictability.png",
     "public/asset/posts/blog total.png",
     "src/posts/9 JS promise async await 확실히 파헤치기!.md",
-    "src/posts/5 가독성 편.md",
-    "src/posts/8 결합도 편.md",
     "src/posts/2 테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정.md",
-    "src/posts/7 응집도 편.md",
-    "src/posts/4 좋은 코드.md",
     "src/posts/3 react-router-dom의 Outlet컴포넌트.md",
     "src/posts/1 React + react-markdown + obsidian md & auto front matter.md",
     "public/asset/posts/legibility.png",
@@ -217,20 +239,12 @@
     "src/components/hooks/useSortedPostsAndTags.js~",
     "node_modules/vite/dist/node/chunks/dep-zaPmCqbl.js",
     "node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js",
-    "node_modules/@rollup/rollup-linux-x64-gnu",
-    "node_modules/@rollup/rollup-linux-s390x-gnu",
-    "node_modules/@rollup/rollup-linux-powerpc64le-gnu",
-    "node_modules/@rollup/rollup-linux-riscv64-gnu",
-    "node_modules/@rollup/rollup-linux-loongarch64-gnu",
     "node_modules/@types/prismjs/README.md",
     "public/asset/posts/good code bad code.png",
     "src/posts/post.md",
     "src/posts/sort post test1.md",
     "src/assets/20180918_210203.jpg",
     "public/asset/posts/blog_tags.png",
-    "public/asset/posts/blog_home.png",
-    "public/asset/posts/Pasted image 20250218095046.png",
-    "public/asset/posts/Pasted image 20250218095513.png",
     "src/posts/Session storage로 창 바뀌어도 상태 변경 및 유지하는 법.md",
     "src/posts/sort post test2.md",
     "src/posts/sort post test.md",

@@ -34,12 +34,16 @@ const Panel = ({ panelTitle, posts, tag, headings }) => {
                 if (element) {
                     const rect = element.getBoundingClientRect();
 
-                    // 화면에서 완전히 벗어난 경우 active 해제
+                    // 현재 화면에 보이는 마지막 heading 찾기
                     if (Math.trunc(rect.top) <= 0) {
                         currentHeading = id;
                     }
-
                 }
+            }
+
+            // 화면이 맨 아래로 스크롤된 경우, 가장 마지막 heading을 active로 설정
+            if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight) {
+                currentHeading = headings[headings.length - 1]?.id;
             }
 
             setActiveHeading(currentHeading);
@@ -52,6 +56,7 @@ const Panel = ({ panelTitle, posts, tag, headings }) => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, [headings]);
+
 
     return (
         <div className="border-l-[1px] border-gray-200 pl-6 text-sm font-bold pr-4 animate-fade-in">

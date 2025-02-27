@@ -117,6 +117,27 @@ const PostMain = ({content}) => {
                         const strings = src.split("public");
                         return (<img src={`${strings[1]}`} alt={alt} className="max-w-full h-auto rounded-lg shadow-md"/>)
                     },
+                    td: ({children}) => {
+                        return (
+                            <td className={"border-[1px]"}>
+                                {children}
+                            </td>
+                        )
+                    },
+                    th: ({children}) => {
+                        return (
+                            <th className={"border-[1px]"}>
+                                {children}
+                            </th>
+                        )
+                    },
+                    table: ({children}) => {
+                        return (
+                            <table className={"text-center"}>
+                                {children}
+                            </table>
+                        )
+                    },
                 }}
             >
                 {content}
