@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -211,21 +211,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "050f5cf45d7da7d4",
+  "active": "370a962752b4a4b4",
   "lastOpenFiles": [
+    "src/posts/4 좋은 코드.md",
+    "src/posts/5 가독성 편.md",
+    "src/posts/7 응집도 편.md",
     "src/posts/8 결합도 편.md",
     "public/asset/posts/Pasted image 20250227163525.png",
     "public/asset/posts/coupling.png",
-    "src/posts/7 응집도 편.md",
     "public/robots.txt",
     "public/sitemap.xml~",
     "public/sitemap.xml",
     "index.html~",
     "src/components/postDetails/PostMain.jsx~",
-    "src/posts/5 가독성 편.md",
     "public/asset/posts/cohesion.png",
     "src/posts/6 예측 가능성 편.md",
-    "src/posts/4 좋은 코드.md",
     "src/components/additionalPanel/Panel.jsx~",
     "public/asset/posts/predictability.png",
     "public/asset/posts/blog total.png",
