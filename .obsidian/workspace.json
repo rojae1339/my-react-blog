@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/9 JS promise async await 확실히 파헤치기!.md",
+                "file": "src/posts/8 결합도 편.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "9 JS promise async await 확실히 파헤치기!"
+              "title": "8 결합도 편"
             }
           }
         ],
@@ -213,16 +213,19 @@
   },
   "active": "370a962752b4a4b4",
   "lastOpenFiles": [
+    "public/asset/posts/props drilling.png",
+    "public/asset/posts/props drilling.png",
+    "src/posts/1 React + react-markdown + obsidian md & auto front matter.md",
+    "src/posts/3 react-router-dom의 Outlet컴포넌트.md",
     "src/posts/8 결합도 편.md",
     "src/posts/7 응집도 편.md",
-    "src/posts/6 예측 가능성 편.md",
     "src/posts/5 가독성 편.md",
+    "src/posts/9 JS promise async await 확실히 파헤치기!.md",
+    "src/posts/6 예측 가능성 편.md",
     "src/posts/4 좋은 코드.md",
     "src/components/postList/PostList.jsx~",
     "src/components/additionalPanel/Panel.jsx~",
     "src/components/additionalPanel/HomeRightPanel.jsx~",
-    "src/posts/3 react-router-dom의 Outlet컴포넌트.md",
-    "src/posts/1 React + react-markdown + obsidian md & auto front matter.md",
     "public/asset/posts/Pasted image 20250227163525.png",
     "public/asset/posts/coupling.png",
     "public/robots.txt",
@@ -233,7 +236,6 @@
     "public/asset/posts/cohesion.png",
     "public/asset/posts/predictability.png",
     "public/asset/posts/blog total.png",
-    "src/posts/9 JS promise async await 확실히 파헤치기!.md",
     "src/posts/2 테일윈드 기본스타일 지정 + 기본스타일 위에 커스텀 스타일 지정.md",
     "public/asset/posts/legibility.png",
     "public/asset/posts/blog_postdetail.png",
@@ -244,7 +246,6 @@
     "src/posts/post.md",
     "src/posts/sort post test1.md",
     "src/assets/20180918_210203.jpg",
-    "public/asset/posts/blog_tags.png",
     "src/posts/Session storage로 창 바뀌어도 상태 변경 및 유지하는 법.md",
     "src/posts/sort post test2.md",
     "src/posts/sort post test.md",
