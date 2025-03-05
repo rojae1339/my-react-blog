@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/postsNotUploaded/1 fetch를 이용해서 api통신하는법.md",
+                "file": "src/posts/10 zustand 사용법.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "1 fetch를 이용해서 api통신하는법"
+              "title": "10 zustand 사용법"
             }
           }
         ]
@@ -184,11 +184,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ace0b3d3620ce389",
+  "active": "95f848206a6b8d24",
   "lastOpenFiles": [
-    "src/posts/7 응집도 편.md",
-    "src/postsNotUploaded/1 fetch를 이용해서 api통신하는법.md",
+    "src/posts/6 예측 가능성 편.md",
     "src/posts/10 zustand 사용법.md",
+    "src/postsNotUploaded/1 fetch를 이용해서 api통신하는법.md",
+    "src/posts/7 응집도 편.md",
     "src/postsNotUploaded"
   ]
 }

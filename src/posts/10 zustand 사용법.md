@@ -103,4 +103,98 @@ Context API를 사용할 때는 **우리가 명시적으로 props를 전달하�
 즉, context API의 문제는 다음과 같다
 
 1. contextAPI는 글로벌로 관리될 상태를 쉽게 공유할 수 있지만, 성능 문제가 발생할 수 있음
-2. 
+2. 상태가 변경된다고 해서 무조건 리렌더링이 필요하지 않을 수도 있는데, context api는 무조건 리렌더링발생
+3. 그것을 해결하려면 useMemo같은 최적화를 해야하는데, 이것도 일임
+<br><br>
+결국 문제는 contextAPI는 컴포넌트로 상태를 관리하는 형식이어서 문제가 있는거다.
+
+그래서 zustand, redux, react query같은 전용 저장소를 이용하는 형식의 상태관리 라이브러리가 인기인 것이다.
+
+## zustand 사용법
+
+>zustand는 클라이언트 상태 관리에 특화되어 있다!
+
+간단하다. 
+
+store로 만들어주고, 필요한 메서드들을 구현해놓으면 된다.
+
+```tsx
+import {create} from "zustand"  
+  
+interface IPost {  
+    userId: number;  
+    id: number;  
+    title: string;  
+    body: string;  
+}  
+  
+interface IUsePostsStore {  
+    posts: IPost[];  
+    fetchPosts: () => Promise<void>;  
+    updatePosts: (id: number, newContent: Partial<IPost>) => void;  
+    deletePosts: (id:number) => void;  
+}  
+  
+const usePostsStore = create<IUsePostsStore>((set, get) => ({  
+    posts: [],  
+    
+    fetchPosts: async () => {  
+    
+        try {  
+            const response = await fetch(
+            "https://jsonplaceholder.typicode.com/posts"
+            );  
+            
+            const data: IPost[] = await response.json();  
+            
+            set({posts: data});  
+        } catch (e) {  
+        
+            console.log(e);  
+        }  
+    },
+	
+    updatePost: async (id, newContent) => {
+	    try {
+		    //서버에서 반환값으로 페칭된 데이터 주면 response에 저장됨
+	        const response = await fetch(
+	        `https://jsonplaceholder.typicode.com/posts/${id}`, 
+	        {
+	            method: "PUT", // 일부 업데이트만 가능하다면 "PATCH" 사용 가능
+	            headers: { "Content-Type": "application/json" },
+	            body: JSON.stringify(newContent),
+	        });
+
+	        if (!response.ok) throw new Error("Failed to update post");
+	
+	        // 서버에서 반환된 최신 데이터 받기
+	        const updatedPost: IPost = await response.json();
+
+        // ✅ Zustand 상태 업데이트
+	        set((state) => ({
+	            posts: state.posts.map((post) => (post.id === id ? updatedPost : post)),
+	        }));
+
+	    } catch (error) {
+	        console.error("Error updating post:", error);
+	    }
+	},
+
+	//....
+    )}
+)
+```
+
+이런식으로 post에 대해서 틀을 잡고, store에 대해서 틀을 잡은다음
+
+해당 인터페이스들을 이용해서 각 메서드들을 구현하면 된다.
+
+물론 나중에 이러한 서버상태는 react query같은걸로 관리하면 더 편해진다.
+
+- react query장점
+	- 자동 캐싱
+		- 서버에 요청한 후 같은 데이터를 요청할때 캐시에서 가져오도록 함
+	- 자동 재시도
+		- 서버 요청 실패시 자동 재시도
+	- 페이지네이션 및 무한 스크롤 지원
+	- 서버상태과 클라이언트 상태 분리 가능
