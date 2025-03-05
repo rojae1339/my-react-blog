@@ -6,6 +6,8 @@ tag: React Zustand 상태관리
 date: 2025-02-28
 ---
 
+![](public/asset/posts/zustand.png)
+
 ## 서론
 
 상태관리 라이브러리가 필요한 이유가 뭘까?
