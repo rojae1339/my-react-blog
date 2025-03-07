@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/10 zustand 사용법.md",
+                "file": "src/postsNotUploaded/2 react query 사용하기.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "10 zustand 사용법"
+              "title": "2 react query 사용하기"
+            }
+          },
+          {
+            "id": "4b5cba308788d307",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
             }
           }
         ]
@@ -186,12 +198,13 @@
   },
   "active": "95f848206a6b8d24",
   "lastOpenFiles": [
-    "src/posts/6 예측 가능성 편.md",
+    "src/postsNotUploaded/1 fetch를 이용해서 api통신하는법.md",
+    "src/postsNotUploaded/2 react query 사용하기.md",
     "src/posts/10 zustand 사용법.md",
+    "src/posts/6 예측 가능성 편.md",
     "public/asset/posts/zustand.png",
     "public/asset/posts/coupling.png",
     "public/asset/posts/Pasted image 20250227163525.png",
-    "src/postsNotUploaded/1 fetch를 이용해서 api통신하는법.md",
     "src/posts/7 응집도 편.md",
     "src/postsNotUploaded"
   ]
