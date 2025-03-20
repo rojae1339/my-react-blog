@@ -4,33 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1e741df98d6a554c",
+        "id": "8f596e7a9d309c9a",
         "type": "tabs",
         "children": [
           {
-            "id": "95f848206a6b8d24",
+            "id": "5e44ea0b5fae4964",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/postsNotUploaded/2 react query 사용하기.md",
+                "file": "src/posts/9 수정중 - JS promise async await 확실히 파헤치기!.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2 react query 사용하기"
-            }
-          },
-          {
-            "id": "4b5cba308788d307",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "title": "9 수정중 - JS promise async await 확실히 파헤치기!"
             }
           }
         ]
@@ -186,21 +174,33 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "templater-obsidian:Templater": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "95f848206a6b8d24",
+  "active": "5e44ea0b5fae4964",
   "lastOpenFiles": [
-    "src/postsNotUploaded/1 fetch를 이용해서 api통신하는법.md",
-    "src/postsNotUploaded/2 react query 사용하기.md",
+    "src/posts/11 Nextjs 프로젝트 구조.md",
+    "src/posts/scripts/idIncrement.js~",
+    "src/posts/8 결합도 편.md",
+    "src/posts/9 수정중 - JS promise async await 확실히 파헤치기!.md",
     "src/posts/10 zustand 사용법.md",
+    "src/posts/scripts/React router dom - outlet, 메인 레이아웃 설정.md",
+    "src/postsNotUploaded/04 Nextjs 이미지 및 글꼴.md",
+    "public/asset/posts/slot ig.png",
+    "src/postsNotUploaded/2 react query 사용하기.md",
+    "src/postsNotUploaded/1 fetch를 이용해서 api통신하는법.md",
+    "src/posts/Nextjs 사운드클라우드 클론코딩.md",
+    "public/asset/posts/parallel routes slot.png",
+    "public/asset/posts/group routes.png",
+    "public/asset/posts/slot component props layout.png",
+    "public/asset/posts/slot-parallel route.png",
     "src/posts/6 예측 가능성 편.md",
     "public/asset/posts/zustand.png",
     "public/asset/posts/coupling.png",

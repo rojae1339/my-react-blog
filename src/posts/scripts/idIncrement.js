@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 // ✅ 절대 경로로 수정 (사용자의 실제 파일 위치)
-const ID_FILE_PATH = "C:/Users/Jaero0/Desktop/ProgStudy/my-react-blog/src/posts/data/id.json";
+const ID_FILE_PATH = "D:/01 Develope/ProgStudy/my-react-blog/src/posts/data/id.json";
 
 async function getNextId() {
     let lastId = 0;
