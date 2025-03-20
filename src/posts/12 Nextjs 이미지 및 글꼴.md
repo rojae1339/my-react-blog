@@ -1,5 +1,10 @@
-
-https://nextjs.org/docs/app/api-reference/components/image
+---
+id: 12
+title: [NextJs] 이미지 및 글꼴
+subTitle: NextJs에서는 이미지, 글꼴을 자체적으로 지원한다고??
+tags: NextJs 이미지컴포넌트 글꼴 공식문서 
+date: 2025-03-20
+---
 
 ## 이미지 컴포넌트
 
