@@ -1,5 +1,5 @@
 ---
-id: 13
+id: 14
 title: [NextJs] 데이터 업데이트
 subTitle: 클라이언트/서버 컴포넌트에서 각각 데이터 업데이트 하기
 tag: NextJs 데이터업데이트 공식문서 revalidatePath useActionState formAction

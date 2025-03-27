@@ -1,5 +1,5 @@
 ---
-id: 14
+id: 13
 title: [NextJs] 데이터 페칭
 subTitle: 클라이언트/서버 컴포넌트 별 데이터 페칭하는 법 및 페칭시 로딩처리
 tag: NextJs 데이터페칭 공식문서 Suspense loading.tsx
