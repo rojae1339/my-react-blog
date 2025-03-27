@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/12 Nextjs 이미지 및 글꼴.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "12 Nextjs 이미지 및 글꼴"
+              "title": "README"
+            }
+          },
+          {
+            "id": "577e849d6e779831",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/asset/posts/client data fetch.png"
+              },
+              "icon": "lucide-image",
+              "title": "client data fetch"
             }
           }
         ]
@@ -186,16 +198,22 @@
   },
   "active": "5e44ea0b5fae4964",
   "lastOpenFiles": [
-    "src/posts/11 Nextjs 프로젝트 구조.md",
+    "src/postsNotUploaded/1 fetch를 이용해서 api통신하는법.md",
+    "2025-03-22.md",
+    "src/postsNotUploaded/2 react query 사용하기.md",
+    "src/postsNotUploaded/3 nextjs 병렬 & 인터셉트 라우트로 모달창 만들기.md",
     "src/posts/12 Nextjs 이미지 및 글꼴.md",
+    "src/posts/13 Nextjs 데이터 페칭.md",
+    "src/posts/14 Nextjs 데이터 업데이트.md",
+    "public/asset/posts/client data fetch.png",
+    "public/asset/posts/modal.gif",
+    "src/posts/11 Nextjs 프로젝트 구조.md",
     "src/posts/10 zustand 사용법.md",
     "src/posts/9 수정중 - JS promise async await 확실히 파헤치기!.md",
     "src/posts/scripts/idIncrement.js~",
     "src/posts/8 결합도 편.md",
     "src/posts/scripts/React router dom - outlet, 메인 레이아웃 설정.md",
     "public/asset/posts/slot ig.png",
-    "src/postsNotUploaded/2 react query 사용하기.md",
-    "src/postsNotUploaded/1 fetch를 이용해서 api통신하는법.md",
     "src/posts/Nextjs 사운드클라우드 클론코딩.md",
     "public/asset/posts/parallel routes slot.png",
     "public/asset/posts/group routes.png",

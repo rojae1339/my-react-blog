@@ -22,7 +22,7 @@ date: 2025-03-20
 - 구글 폰트 자체적으로 호스팅되어 사용가능
 	- `import {...} from next/font/google`
 - 가변글꼴 지향
-	- [가변글꼴 문서](https://namu.wiki/w/%EA%B0%80%EB%B3%80%20%EA%B8%80%EA%BC%B4)
+	- [가변글꼴이란?](https://namu.wiki/w/%EA%B0%80%EB%B3%80%20%EA%B8%80%EA%BC%B4)
 	- 가변글꼴이 아닌 글꼴 사용할경우 가중치 적용해줘야함
 - 로컬글꼴 사용가능
 	- `import localFont from next/font/local`로 로컬폰트 불러온 후
