@@ -1,9 +1,9 @@
 ---
-id: <%* tR += await tp.user.idIncrement(); %>
+id: 15
 title: [NextJs] 에러 핸들링
 subTitle: 간단하게 에러 핸들링하기
 tag: NextJs 에러핸들링 공식문서 error.tsx global-error.tsx
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: 2025-04-02
 ---
 
 에러에는 2가지 종류의 에러가 존재한다.

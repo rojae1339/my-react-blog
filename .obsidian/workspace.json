@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/11 Nextjs 프로젝트 구조.md",
+                "file": "src/posts/15 Nextjs 에러핸들링.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "11 Nextjs 프로젝트 구조"
+              "title": "15 Nextjs 에러핸들링"
             }
           },
           {
@@ -198,8 +198,9 @@
   },
   "active": "5e44ea0b5fae4964",
   "lastOpenFiles": [
-    "src/posts/15 Nextjs 에러핸들링.md",
+    "src/postsNotUploaded/4 nextjs DB연결.md",
     "src/posts/11 Nextjs 프로젝트 구조.md",
+    "src/posts/15 Nextjs 에러핸들링.md",
     "public/asset/posts/Pasted image 20250329103744.png",
     "src/posts/14 Nextjs 데이터 업데이트.md",
     "src/posts/13 Nextjs 데이터 페칭.md",
