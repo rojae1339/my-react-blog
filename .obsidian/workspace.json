@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/15 Nextjs 에러핸들링.md",
+                "file": "src/posts/11 Nextjs 프로젝트 구조.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "15 Nextjs 에러핸들링"
+              "title": "11 Nextjs 프로젝트 구조"
+            }
+          },
+          {
+            "id": "31ed1e6293df7791",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/posts/무제.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "무제"
             }
           },
           {
@@ -33,7 +47,8 @@
               "title": "client data fetch"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "state",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,23 +211,28 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5e44ea0b5fae4964",
+  "active": "31ed1e6293df7791",
   "lastOpenFiles": [
-    "src/postsNotUploaded/4 nextjs DB연결.md",
-    "src/posts/11 Nextjs 프로젝트 구조.md",
+    "src/posts/16 Unity 싱글톤.md",
+    "src/posts/무제.md",
     "src/posts/15 Nextjs 에러핸들링.md",
-    "public/asset/posts/Pasted image 20250329103744.png",
+    "src/posts/16 Unity 싱글톤 사용법.md",
+    "src/posts/scripts/16 Unity 싱글톤사용법.md",
+    "src/postsNotUploaded/2 react query 사용하기.md",
+    "src/postsNotUploaded/5 form action 트러블슈팅.md",
+    "src/posts/11 Nextjs 프로젝트 구조.md",
     "src/posts/14 Nextjs 데이터 업데이트.md",
+    "src/posts/10 zustand 사용법.md",
+    "src/postsNotUploaded/4 nextjs DB연결.md",
+    "public/asset/posts/Pasted image 20250329103744.png",
     "src/posts/13 Nextjs 데이터 페칭.md",
     "src/posts/12 Nextjs 이미지 및 글꼴.md",
     "README.md",
     "src/postsNotUploaded/1 fetch를 이용해서 api통신하는법.md",
     "2025-03-22.md",
-    "src/postsNotUploaded/2 react query 사용하기.md",
     "src/postsNotUploaded/3 nextjs 병렬 & 인터셉트 라우트로 모달창 만들기.md",
     "public/asset/posts/client data fetch.png",
     "public/asset/posts/modal.gif",
-    "src/posts/10 zustand 사용법.md",
     "src/posts/9 수정중 - JS promise async await 확실히 파헤치기!.md",
     "src/posts/scripts/idIncrement.js~",
     "src/posts/8 결합도 편.md",
