@@ -6,11 +6,6 @@ tag: Unity Csharp Quaternion GameDev
 date: 2025-06-05
 ---
 
-짐벌락, 복소수
-
-Quaternion, Eulur, Slerp, LookRotation
-
-vector3 이동은 quaternion 로테이션과 함께
 
 ## Quaternion
 
