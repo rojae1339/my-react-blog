@@ -1,9 +1,9 @@
 ---
-id: <%* tR += await tp.user.idIncrement(); %>
+id: 18
 title: [Unity] Quaternion에 대해서
 subTitle: 사원수, Quaternion과 보간에 대해 알아보자
 tag: Unity Csharp Quaternion GameDev 
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: 2025-06-05
 ---
 
 짐벌락, 복소수

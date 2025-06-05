@@ -1,9 +1,9 @@
 ---
-id: <%* tR += await tp.user.idIncrement(); %>
+id: 16
 title: [Unity] Vector3에 대해서
 subTitle: 3차원 벡터를 공부해보자
 tag: Unity Csharp Vector3 GameDev 
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: 2025-06-05
 ---
 
 # Vector3?

@@ -1,9 +1,9 @@
 ---
-id: <%* tR += await tp.user.idIncrement(); %>
+id: 17
 title: [Unity] 유니티에서 싱글톤 사용법
 subTitle: 싱글톤? 그게뭐야
 tag: Unity Csharp GameDev
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: 2025-06-05
 ---
 
 기본적인 싱글톤은
