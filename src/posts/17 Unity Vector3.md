@@ -1,5 +1,5 @@
 ---
-id: 16
+id: 17
 title: [Unity] Vector3에 대해서
 subTitle: 3차원 벡터를 공부해보자
 tag: Unity Csharp Vector3 GameDev 
@@ -11,8 +11,8 @@ date: 2025-06-05
 기본적으로 GameObject가 물리연산이나 단순 position변경으로 인해 움직이게 되면 position에 변화가 일어나게 된다.
 이 position은 Vector3 라는 **구조체** 로 이루어져 있다.
 
-![](images/Pasted%20image%2020250604112825.png)
-![](images/Pasted%20image%2020250604112840.png)
+![](public/asset/posts/Pasted%20image%2020250605141304.png)
+![](public/asset/posts/Pasted%20image%2020250605141308.png)
 
 위 사진에서 보이다싶이 Transform의 position은 Vector3이고, Vector3는 struct라는것이 확인가능하다
 
@@ -28,7 +28,7 @@ x axis: 가로
 y axis: 세로(수직)
 z axis: x축에 대한 2차원 공간의 세로
 
-![](images/Pasted%20image%2020250604114110.png)
+![](public/asset/posts/Pasted%20image%2020250605141313.png)
 
 이렇게 이루어진다.
 
@@ -40,12 +40,12 @@ z axis: x축에 대한 2차원 공간의 세로
 
 유저 A의 위치가 1,2이고, 유저 B의 위치가 4,8일때, 
 
-![](images/Pasted%20image%2020250604120150.png)
+![](public/asset/posts/Pasted%20image%2020250605141319.png)
 
 $f^2$ + $g^2$ = $h^2$ 이라는 식으로 A에서 B로 향하는 방향을 구할 수 있다.
 
 다만 3차원 벡터에서는 방향 구하기가 복잡해진다.
-![](images/Pasted%20image%2020250604120452.png)
+![](public/asset/posts/Pasted%20image%2020250605141323.png)
 
 그러므로, 벡터를 이용해 방향을 구할 수 있다는 것을 알아두면 좋을것 같다.
 
@@ -81,7 +81,7 @@ float magVelo = velo.magnitude;
 >magnitude는 $\sqrt{(x^2 + y^2 + z^2)}$ 이다.
 >sqrMagnitude는 제곱근을 구하기 전, 즉 $x^2 + y^2 + z^2$ 의 값이므로, 
 >단순한 거리의 비교만 필요한 경우 sqrt연산을 하지 않는 sqrMagnitude를 이용하여 최적화 가능하다
->![](images/Pasted%20image%2020250604123330.png)
+>![](public/asset/posts/Pasted%20image%2020250605141338.png)
 >
 >[Vector3.sqrMagnitude](https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Vector3-sqrMagnitude.html)
 
@@ -91,7 +91,7 @@ normalized는 magnitude에서 계산된 거리나 속도가 일정하지 않을�
 [Vector3.noramlized](https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Vector3-normalized.html)
 
 구현부는 다음과 같이 되어있다.
-![](images/Pasted%20image%2020250604123643.png)
+![](public/asset/posts/Pasted%20image%2020250605141347.png)
 
 >noramlized된 벡터는 1의 크기를 가지게 되고 현재 벡터의 방향은 유지된다.
 >Vector3의 값을 해당 Vector3의 magnitude된 값으로 나눈 값을 의미한다.
@@ -120,7 +120,7 @@ public class Test : MonoBehaviour
 
 이런 코드로 normalized를 실험해보면
 
-![](images/Pasted%20image%2020250604124817.png)
+![](public/asset/posts/Pasted%20image%2020250605141355.png)
 이런 결과가 나오게 된다.
 
 >2차원 벡터를 기준으로, 유저가 점프를 했다고 가정해보자

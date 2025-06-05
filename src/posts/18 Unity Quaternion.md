@@ -18,7 +18,7 @@ Quaternion은 3차원 벡터 x, y, z에 추가적인 하나의 실수값 w가 �
 
 [Vector3 from unity](https://dev.to/rojae1339/vector3-from-unity-47dm)
 
-![](images/Pasted%20image%2020250605115124.png)
+![](public/asset/posts/Pasted%20image%2020250605141412.png)
 
 이렇듯, Vector3와 마찬가지로 구조체로 이루어져 있다.
 
@@ -33,16 +33,17 @@ Quaternion은 3차원 벡터 x, y, z에 추가적인 하나의 실수값 w가 �
 
 3차원 벡터에서 축은 다음과 같이 생겼다.
 
-![](images/xyz%201.png)
+![](public/asset/posts/Pasted%20image%2020250605141419.png)
 
 이것을 다르게 표현해보면
 
-![](images/Pasted%20image%2020250605120505.png)
+![](public/asset/posts/Pasted%20image%2020250605141423.png)
 
 가 된다.
 
 이런 축을 기준으로 회전을 돌리다보면
-![](images/Gimbal_Lock_Plane.gif)
+![](public/asset/posts/Gimbal_Lock_Plane.gif)
+
 이렇게 여러 축이 서로 고정되는 현상이 생기게 되는데, 이것이 짐벌락이다.
 
 즉, 위 상황으로는 보라색축과 초록색축이 회전시에 같은 회전을 보이고 있다.
@@ -80,7 +81,7 @@ private void Update()
 }
 ```
 
-![](images/quaternion1.gif)
+![](public/asset/posts/quaternion1.gif)
 
 이렇게 원하는 회전이 나오지 않게 된다.
 >각도를 나타내지 않아서 생기는 문제
@@ -99,7 +100,7 @@ private void Update()
 }
 ```
 
-![](images/quaternion2.gif)
+![](public/asset/posts/quaternion2.gif)
 
 짐벌락을 초래해버린다.
 
@@ -123,7 +124,7 @@ void Update ()
 }
 ```
 
-![](images/quaternion3.gif)
+![](public/asset/posts/quaternion3.gif)
 
 잘 회전된다.
 
@@ -176,7 +177,7 @@ Slerp: Spherical(shape like a ball, sphere) Linear interpolate
 Lerp와 Slerp의 차이는,
 Lerp: 선형 보간, 직선
 Slerp: 구면 선형보간, 곡선
-![](images/slerp.png)
+![](public/asset/posts/slerp.png)
 
 \_rotationSpeed값이 1/3인경우, 
 Lerp는 직선을 기준으로 1/3을 나눠서 정확하게 나누어 떨어졌지만

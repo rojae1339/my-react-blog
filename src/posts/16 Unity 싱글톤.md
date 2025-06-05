@@ -1,5 +1,5 @@
 ---
-id: 17
+id: 16
 title: [Unity] 유니티에서 싱글톤 사용법
 subTitle: 싱글톤? 그게뭐야
 tag: Unity Csharp GameDev
