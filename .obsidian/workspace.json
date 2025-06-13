@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/16 Unity 싱글톤.md",
+                "file": "src/posts/19 프로그래머스 Lv1. 카드뭉치.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "16 Unity 싱글톤"
+              "title": "19 프로그래머스 Lv1. 카드뭉치"
             }
           },
           {
@@ -213,10 +213,11 @@
   },
   "active": "31ed1e6293df7791",
   "lastOpenFiles": [
+    "src/posts/16 Unity 싱글톤.md",
+    "src/posts/19 프로그래머스 Lv1. 카드뭉치.md",
     "src/components/hooks/useSortedPostsAndTags.js~",
     "src/App.jsx~",
     "src/posts/15 Nextjs 에러핸들링.md",
-    "src/posts/16 Unity 싱글톤.md",
     "src/posts/17 Unity Vector3.md",
     "src/posts/18 Unity Quaternion.md",
     "src/posts/14 Nextjs 데이터 업데이트.md",
